@@ -1,0 +1,84 @@
+2023-11-10 10:29:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "drop table if exists [*]user cascade "; erwartet "identifier"
+Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-11-10 10:29:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "create table [*]user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid))"; erwartet "identifier"
+Syntax error in SQL statement "create table [*]user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid))"; expected "identifier"; SQL statement:
+create table user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid)) [42001-214]
+2023-11-10 10:29:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references [*]user"; erwartet "identifier"
+Syntax error in SQL statement "alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references user [42001-214]
+2023-11-10 10:29:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "drop table if exists [*]user cascade "; erwartet "identifier"
+Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-11-10 10:49:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "drop table if exists [*]user cascade "; erwartet "identifier"
+Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-11-10 10:49:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "create table [*]user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid))"; erwartet "identifier"
+Syntax error in SQL statement "create table [*]user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid))"; expected "identifier"; SQL statement:
+create table user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid)) [42001-214]
+2023-11-10 10:49:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references [*]user"; erwartet "identifier"
+Syntax error in SQL statement "alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references user [42001-214]
+2023-11-10 10:49:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "drop table if exists [*]user cascade "; erwartet "identifier"
+Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-11-10 10:49:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "drop table if exists [*]user cascade "; erwartet "identifier"
+Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-11-10 10:49:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "create table [*]user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid))"; erwartet "identifier"
+Syntax error in SQL statement "create table [*]user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid))"; expected "identifier"; SQL statement:
+create table user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid)) [42001-214]
+2023-11-10 10:49:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references [*]user"; erwartet "identifier"
+Syntax error in SQL statement "alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references user [42001-214]
+2023-11-10 10:49:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "drop table if exists [*]user cascade "; erwartet "identifier"
+Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-11-10 10:54:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "drop table if exists [*]user cascade "; erwartet "identifier"
+Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-11-10 10:54:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "create table [*]user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid))"; erwartet "identifier"
+Syntax error in SQL statement "create table [*]user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid))"; expected "identifier"; SQL statement:
+create table user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid)) [42001-214]
+2023-11-10 10:54:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references [*]user"; erwartet "identifier"
+Syntax error in SQL statement "alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references user [42001-214]
+2023-11-10 10:54:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "drop table if exists [*]user cascade "; erwartet "identifier"
+Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-11-10 10:57:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "drop table if exists [*]user cascade "; erwartet "identifier"
+Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-11-10 10:57:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "create table [*]user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid))"; erwartet "identifier"
+Syntax error in SQL statement "create table [*]user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid))"; expected "identifier"; SQL statement:
+create table user (uuid uuid not null, email varchar(255), name varchar(255), password varchar(255), primary key (uuid)) [42001-214]
+2023-11-10 10:57:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references [*]user"; erwartet "identifier"
+Syntax error in SQL statement "alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references [*]user"; expected "identifier"; SQL statement:
+alter table if exists user_authorities add constraint FKimurv0ioaeskf289mammk8xos foreign key (user_uuid) references user [42001-214]
+2023-11-10 10:57:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "insert into [*]user (email,name,password,uuid) values (?,?,?,?)"; erwartet "identifier"
+Syntax error in SQL statement "insert into [*]user (email,name,password,uuid) values (?,?,?,?)"; expected "identifier"; SQL statement:
+insert into user (email,name,password,uuid) values (?,?,?,?) [42001-214]
+2023-11-10 10:57:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "drop table if exists [*]user cascade "; erwartet "identifier"
+Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]

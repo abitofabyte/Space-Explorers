@@ -1,4 +1,4 @@
-package yes.no.spaceempires.entities.ships;
+package yes.no.spaceempires.entities.buildings;
 
 import jakarta.persistence.Entity;
 import lombok.*;

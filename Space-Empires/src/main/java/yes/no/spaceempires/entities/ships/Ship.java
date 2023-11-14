@@ -5,6 +5,7 @@ import jakarta.persistence.ManyToOne;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 import yes.no.spaceempires.entities.GameEntity;
+import yes.no.spaceempires.entities.users.User;
 
 @Entity
 @Data
@@ -14,7 +15,7 @@ import yes.no.spaceempires.entities.GameEntity;
 @AllArgsConstructor
 public class Ship extends GameEntity {
     @ManyToOne
-    private Ship owner;
+    private User owner;
 }
 
 

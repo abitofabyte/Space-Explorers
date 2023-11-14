@@ -31,7 +31,7 @@ public class UserPrincipal implements UserDetails {
     private Set<Authority> authorities;
 
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return AuthorityUtils.createAuthorityList(authorities.stream().map(Authority::name).collect(Collectors.joining(" ")));
+        return authorities;
     }
 
     @Override

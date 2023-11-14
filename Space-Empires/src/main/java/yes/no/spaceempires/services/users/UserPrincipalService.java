@@ -11,10 +11,10 @@ import java.util.List;
 @RequiredArgsConstructor
 public class UserPrincipalService {
     private final PasswordEncoder passwordEncoder;
-    private final UserPrincipalRepository securityUserRepository;
+    private final UserPrincipalRepository userPrincipalRepository;
 
     public UserPrincipal findByEmail(String email) {
-        return securityUserRepository.findByUserEmail(email)
+        return userPrincipalRepository.findByUserEmail(email)
                                      .orElseThrow();
     }
 
@@ -28,13 +28,13 @@ public class UserPrincipalService {
 
     public UserPrincipal create(UserPrincipalContext context) {
         var securityUser = fromContext(context);
-        return securityUserRepository.save(securityUser);
+        return userPrincipalRepository.save(securityUser);
     }
 
     public List<UserPrincipal> createAll(List<UserPrincipalContext> contexts) {
         var securityUsers = contexts.stream()
                                     .map(this::fromContext)
                                     .toList();
-        return securityUserRepository.saveAll(securityUsers);
+        return userPrincipalRepository.saveAll(securityUsers);
     }
 }

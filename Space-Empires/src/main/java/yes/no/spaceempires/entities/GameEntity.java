@@ -1,23 +1,25 @@
 package yes.no.spaceempires.entities;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.Entity;
 import jakarta.persistence.Lob;
 import jakarta.persistence.MappedSuperclass;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 import lombok.experimental.SuperBuilder;
 
-import java.util.UUID;
 
 @MappedSuperclass
-@Getter
+@Data
+@EqualsAndHashCode(callSuper = true)
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
 public class GameEntity extends BaseEntity {
     @Lob
     protected String description;
+
+    protected Integer currentLevel;
+
+    protected Long basePrice;
+
+    protected Long baseEnergyRequired;
 }
